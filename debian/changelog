@@ -1,0 +1,82 @@
+node-ansi-escapes (5.0.0+really.4.3.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Back to 4.3.1 (Closes: #992501)
+
+ -- Yadd <yadd@debian.org>  Thu, 19 Aug 2021 15:12:26 +0200
+
+node-ansi-escapes (5.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Declare compliance with policy 4.6.0
+  * New upstream version 5.0.0
+  * Refresh patch
+  * Build depends on node-tape ≥ 5
+
+ -- Yadd <yadd@debian.org>  Thu, 19 Aug 2021 11:46:02 +0200
+
+node-ansi-escapes (4.3.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 4.3.1
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 27 Aug 2020 22:01:30 +0200
+
+node-ansi-escapes (4.3.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstabe after successful tests
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 14 Jan 2020 07:11:21 +0100
+
+node-ansi-escapes (4.3.0-1) experimental; urgency=medium
+
+  * Team upload
+  * Update metadata
+  * New upstream version 4.3.0
+  * Replace mocha by tape in test
+  * Missing tape
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 12 Jan 2020 08:09:05 +0100
+
+node-ansi-escapes (3.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools test & install
+  * New upstream version 3.1.0
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 09 Jan 2020 18:19:51 +0100
+
+node-ansi-escapes (3.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 03 Jan 2018 16:31:33 +0530
+
+node-ansi-escapes (1.4.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #848367)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 19 Dec 2016 11:01:06 +0000
